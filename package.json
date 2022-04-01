@@ -53,6 +53,7 @@
     "@stdlib/stats-base-dists-triangular-skewness": "^0.0.x",
     "@stdlib/stats-base-dists-triangular-stdev": "^0.0.x",
     "@stdlib/stats-base-dists-triangular-variance": "^0.0.x",
+    "@stdlib/string-format": "^0.0.x",
     "@stdlib/utils-define-nonenumerable-read-only-accessor": "^0.0.x",
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.0.x",
     "@stdlib/utils-define-property": "^0.0.x"
