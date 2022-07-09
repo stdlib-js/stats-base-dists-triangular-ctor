@@ -63,7 +63,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.Triangular;
+})();
 })();
 </script>
 ```
@@ -327,6 +329,7 @@ y = triangular.quantile( 1.9 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-triangular-ctor@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var triangular = new Triangular( 2.0, 4.0, 3.0 );
 
@@ -342,6 +345,7 @@ var s2 = triangular.variance;
 var y = triangular.cdf( 2.5 );
 // returns 0.125
 
+})();
 })();
 </script>
 </body>
