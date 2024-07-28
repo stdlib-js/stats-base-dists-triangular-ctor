@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import Triangular from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-triangular-ctor@esm/index.mjs';
+import Triangular from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-triangular-ctor@v0.2.2-esm/index.mjs';
 ```
 
 #### Triangular( \[a, b, c] )
@@ -313,7 +313,7 @@ y = triangular.quantile( 1.9 );
 <body>
 <script type="module">
 
-import Triangular from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-triangular-ctor@esm/index.mjs';
+import Triangular from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-triangular-ctor@v0.2.2-esm/index.mjs';
 
 var triangular = new Triangular( 2.0, 4.0, 3.0 );
 
