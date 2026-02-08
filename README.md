@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import Triangular from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-triangular-ctor@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-dists-triangular-ctor/tags). For example,
+
+```javascript
 import Triangular from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-triangular-ctor@v0.2.3-deno/mod.js';
 ```
 
@@ -308,7 +313,7 @@ y = triangular.quantile( 1.9 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import Triangular from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-triangular-ctor@v0.2.3-deno/mod.js';
+import Triangular from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-triangular-ctor@deno/mod.js';
 
 var triangular = new Triangular( 2.0, 4.0, 3.0 );
 
