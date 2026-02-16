@@ -46,7 +46,7 @@
     "@stdlib/stats-base-dists-triangular-logpdf": "^0.3.1",
     "@stdlib/stats-base-dists-triangular-mean": "^0.3.1",
     "@stdlib/stats-base-dists-triangular-median": "^0.3.1",
-    "@stdlib/stats-base-dists-triangular-mgf": "^0.3.0",
+    "@stdlib/stats-base-dists-triangular-mgf": "^0.3.1",
     "@stdlib/stats-base-dists-triangular-mode": "^0.3.1",
     "@stdlib/stats-base-dists-triangular-pdf": "^0.3.1",
     "@stdlib/stats-base-dists-triangular-quantile": "^0.3.1",
@@ -63,11 +63,11 @@
     "@stdlib/assert-has-own-property": "^0.2.3",
     "@stdlib/assert-is-function": "^0.2.3",
     "@stdlib/constants-float64-eps": "^0.2.3",
-    "@stdlib/random-base-randu": "^0.2.2",
+    "@stdlib/random-base-randu": "^0.2.3",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
-    "@stdlib/bench-harness": "^0.2.2"
+    "@stdlib/bench-harness": "^0.2.3"
   },
   "engines": {
     "node": ">=0.10.0"
